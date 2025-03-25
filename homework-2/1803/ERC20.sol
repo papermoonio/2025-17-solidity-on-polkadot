@@ -2,7 +2,7 @@
 pragma solidity ^0.8.26;
 
 import "./IERC20.sol";
-
+// https://westend-asset-hub-eth-explorer.parity.io/tx/0xeecfb09064386975a889158bcb64aa71c7cc9d4993ea1ef5a4c7b1530e9b45d9
 contract ERC20 is IERC20 {
     event Transfer(address indexed from, address indexed to, uint256 value);
     event Approval(
@@ -16,11 +16,10 @@ contract ERC20 is IERC20 {
     string public symbol;
     uint8 public decimals;
 
-    constructor(string memory _name, string memory _symbol, uint8 _decimals, uint256 initialSupply) {
+    constructor(string memory _name, string memory _symbol, uint8 _decimals) {
         name = _name;
         symbol = _symbol;
         decimals = _decimals;
-        totalSupply = initialSupply * 10 ** uint256(_decimals);
     }
 
     function transfer(address recipient, uint256 amount)
@@ -51,9 +50,8 @@ contract ERC20 is IERC20 {
     }
 
     function _mint(address to, uint256 amount) internal {
-        require(totalSupply >= amount, "ERC20: insufficient balance");
         balanceOf[to] += amount;
-        totalSupply -= amount;
+        totalSupply += amount;
         emit Transfer(address(0), to, amount);
     }
 
