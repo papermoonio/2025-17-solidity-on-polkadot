@@ -18,4 +18,4 @@
 
 - 操作完成后，再次读取 num，可以看到已经从 0 变为 1：
 
-   ![](https://github.com/ljjathena/2025-17-solidity-on-polkadot/raw/main/homework-3/1908/test/%E6%93%8D%E4%BD%9C%E5%AE%8C%E6%88%90%E5%90%8E%EF%BC%8C%E5%86%8D%E6%AC%A1%E8%AF%BB%E5%8F%96num%EF%)
+  ![](https://github.com/ljjathena/2025-17-solidity-on-polkadot/raw/main/homework-3/1908/test/%E6%93%8D%E4%BD%9C%E5%AE%8C%E6%88%90%E5%90%8E%EF%BC%8C%E5%86%8D%E6%AC%A1%E8%AF%BB%E5%8F%96num%EF%BC%8C%E5%8F%AF%E4%BB%A5%E7%9C%8B%E5%88%B0%E5%B7%B2%E7%BB%8F%E4%BB%8E0%E5%8F%98%E4%B8%BA1.png)
