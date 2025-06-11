@@ -7,3 +7,5 @@
 - LogicContract、ProxyContract 已成功部署，合约地址如下：
    - LogicContract: 0x2020A1987ce8873C7281F63f05AE515295a2438C
    - ProxyContract: 0xC8Ec4e3b600d02d58a88399Ef87a1E968aE56a2F
+![](https://github.com/ljjathena/2025-17-solidity-on-polkadot/raw/main/homework-3/1908/test/%E4%BB%A3%E7%90%86%E5%90%88%E7%BA%A6%E5%88%9D%E5%A7%8Bnum%E5%80%BC%E4%B8%BA0.png)
+- 代理合约初始 num 值为 0
